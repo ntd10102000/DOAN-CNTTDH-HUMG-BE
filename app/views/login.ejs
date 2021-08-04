@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>TRANG ĐĂNG NHẬP</h1>
+            <form action="/api/auth/signin" method="POST">
+                Nhập vào tên đăng nhập:
+                <input class="form-control" type="text" name="username"> Nhập vào mật khẩu:
+                <input class="form-control" type="password" name="password">
+                <input class="btn btn-primary" type="submit" name="signup" value="Đăng Nhập">
+                <a href="/login" class="btn btn-danger">Hủy</a>
+                <a href="/signup" class="btn btn-danger">Đăng kí</a>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

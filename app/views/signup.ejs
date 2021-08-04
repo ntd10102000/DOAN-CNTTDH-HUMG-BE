@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>TRANG ĐĂNG KÝ</h1>
+            <form action="/api/auth/signup" method="POST">
+                <label for="">Nhập tên đăng nhập</label>
+                <input class="form-control" type="text" name="username">
+                <label for="">Nhập email</label>
+                <input class="form-control" type="email" name="email">
+                <label for="">Nhập password</label>
+                <input class="form-control" type="password" name="password">
+                <label for="">Chọn vai trò</label>
+                <!-- <select class="form-control" name="roles" id="">
+                    <option value="1">User</option>
+                    <option value="2">Moderator</option>
+                </select> -->
+                <input class="btn btn-primary" type="submit" name="signup" value="Đăng Ki">
+                <a href="/user/login" class="btn btn-danger">Hủy</a>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
